@@ -3,82 +3,114 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio website</title>
-    <link rel="stylesheet" href="web.css">
+    <title>WebTEchnology</title>
 </head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body{
+        background-color: #fcfeff;
+    }
+
+    h1,br{
+        color: rgb(17, 238, 238);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 50px;
+    }
+
+    .card-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+    .card{
+        margin: 20px;
+        padding: 10px;
+        border: none;
+        border-radius: 10px;
+        background-color: rgb(72, 72, 200);
+        font-style: normal;
+        color: white;
+        
+    }
+ 
+    .card a{
+        text-decoration: none;
+            color: white;
+            font-weight: normal;
+            transition: 0.3s;
+        
+    }
+
+    .another{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+     .sub-by{
+        margin: 20px;
+        padding: 20px;
+        background-color: #eccaca;
+        border: none;
+        border-radius: 20px;
+
+    }
+     .sub-to{
+        margin: 20px;
+        padding: 20px;
+        background-color: #eccaca;
+        border: none;
+        border-radius: 20px;
+
+    }
+</style>
 <body>
-    <body>
+    <h1>Welcome to my Web Technology Workshop <br>A normal HTML website.</h1>
 
-    <!-- NAVBAR -->
-    <nav class="navbar">
-        <h1>MyPortfolio</h1>
-        <ul class="nav-links">
-            <li><a href="web.html">Home</a></li>
-            <li><a href="#works">My Works</a></li>
-            <li><a href="#footer">Contact</a></li>
-        </ul>
-    </nav>
-
-    <!-- MY WORKS SECTION -->
-    <section class="works" id="works">
-        <h2>My Works</h2>
-
-        <div class="work-container">
-            <div class="work-card"><a href="project1.html">
-                <h3>Project One</h3>
-                <p>A short description of your project goes here.</p></a>
-            </div>
-
-            <div class="work-card"><a href="colors.html">
-                <h3>Project Two</h3>
-                <p>A short description of your project goes here.</p></a>
-            </div>
-
-            <div class="work-card"> <a href="form.html">
-                <h3>Project Three</h3>
-                <p>A short description of your project goes here.</p></a>
-            </div>
-        </div>
-    </section>
-
-    <section class="about-me" id="about">
-    <div class="about-container">
-
-        <div class="about-image">
-            <img src="assets/icon.png.jpg" alt="My Photo">
-        </div>
-
-        <div class="about-content">
-            <h2>About Me</h2>
-            <p>
-                Hi, I'm <strong>Sree Tirtha</strong>, a passionate web developer who loves building
-                clean, responsive, and user-friendly websites.
-            </p>
-
-            <p>
-                I specialize in HTML, CSS, and JavaScript, creating modern digital
-                experiences that help businesses grow and stand out online.
-            </p>
-
-            <p>
-                When I'm not coding, I enjoy learning new technologies and improving
-                my skills every day.
-            </p>
-
-            <a href="#" class="about-btn">Download CV</a>
-        </div>
+    <div class="card-container">
+    <div class="card">
+        <a href="Experiment1/index.html"><p>Experiment1</p></a>
+        
+    </div>
+    <div class="card">
+        <a href="Experiment2/index.html"><p>Experiment2</p></a>
+        
+    </div>
+    <div class="card">
+        <a href="Experiment3/index.html"><p>Experiment3</p></a>
+        
+    </div>
+    <div class="card">
+        <a href="Experiment4/index.html"><p>Experiment4</p></a>
+        
+    </div>
 
     </div>
-</section>
 
+    <div class="another">
+        <div class="sub-by">
+            <b>Name</b><p>Sree Tirtha</p>
+            <b>USN</b><p>24BTRCN072</p>
+            <b>Course</b><p>Web Technology</p>
 
-    <!-- FOOTER -->
-    <footer id="footer">
-        <p>© 2026 MyPortfolio | All Rights Reserved </p>
-    </footer>
+        </div>
+        <div class="sub-to">
+            <b>Faculty</b><p>Junaid Rsool Sir</p>
+            <b>Department</b><p>Computer Science and Engineering</p>
 
-</body>
-</html>
+        </div>
+    </div>
     
 </body>
 </html>
