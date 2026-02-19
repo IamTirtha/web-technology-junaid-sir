@@ -3,114 +3,166 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WebTEchnology</title>
-</head>
-<style>
-    *{
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
+    <title>Web Technology Workshop</title>
+
     
-    body{
-        background-color: #fcfeff;
-    }
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 
-    h1,br{
-        color: rgb(17, 238, 238);
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        padding: 50px;
-    }
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-    .card-container{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        
-    }
-
-    .card{
-        margin: 20px;
-        padding: 10px;
-        border: none;
-        border-radius: 10px;
-        background-color: rgb(72, 72, 200);
-        font-style: normal;
-        color: white;
-        
-    }
- 
-    .card a{
-        text-decoration: none;
+        body{
+            font-family: 'Poppins', sans-serif;
+            min-height: 100vh;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
             color: white;
-            font-weight: normal;
-            transition: 0.3s;
+        }
+
         
-    }
+        h1{
+            text-align: center;
+            margin-top: 60px;
+            font-size: 2.5rem;
+            font-weight: 700;
+            line-height: 1.4;
+        }
 
-    .another{
-        display: flex;
-        justify-content: center;
-        align-items: center;
         
-    }
+        .card-container{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 25px;
+            margin-top: 50px;
+        }
 
-     .sub-by{
-        margin: 20px;
-        padding: 20px;
-        background-color: #eccaca;
-        border: none;
-        border-radius: 20px;
+        .card{
+            background: white;
+            border-radius: 15px;
+            padding: 20px 40px;
+            transition: 0.3s ease;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+        }
 
-    }
-     .sub-to{
-        margin: 20px;
-        padding: 20px;
-        background-color: #eccaca;
-        border: none;
-        border-radius: 20px;
+        .card:hover{
+            transform: translateY(-10px);
+            box-shadow: 0 15px 35px rgba(0,0,0,0.3);
+        }
 
-    }
-</style>
+        .card a{
+            text-decoration: none;
+            color: #333;
+            font-weight: 600;
+            font-size: 1.1rem;
+        }
+
+        
+        .another{
+            margin-top: 70px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 40px;
+        }
+
+        .sub-by, .sub-to{
+            background: rgba(255, 255, 255, 0.15);
+            backdrop-filter: blur(10px);
+            padding: 30px;
+            border-radius: 20px;
+            width: 280px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+        }
+
+        .sub-by b, .sub-to b{
+            font-weight: 600;
+            font-size: 1rem;
+        }
+
+        .sub-by p, .sub-to p{
+            margin-bottom: 15px;
+            font-weight: 300;
+        }
+
+        
+        footer{
+            margin-top: auto;
+            padding: 20px;
+            font-size: 0.9rem;
+            opacity: 0.8;
+        }
+
+       
+        @media(max-width: 768px){
+            h1{
+                font-size: 1.8rem;
+                padding: 0 20px;
+            }
+
+            .card{
+                padding: 15px 25px;
+            }
+        }
+
+    </style>
+</head>
+
 <body>
-    <h1>Welcome to my Web Technology Workshop <br>A normal HTML website.</h1>
+
+    <h1>
+        Welcome to My Web Technology Workshop <br>
+        A Modern HTML Website
+    </h1>
 
     <div class="card-container">
-    <div class="card">
-        <a href="Experiment1/index.html"><p>Experiment1</p></a>
-        
-    </div>
-    <div class="card">
-        <a href="Experiment2/index.html"><p>Experiment2</p></a>
-        
-    </div>
-    <div class="card">
-        <a href="Experiment3/index.html"><p>Experiment3</p></a>
-        
-    </div>
-    <div class="card">
-        <a href="Experiment4/index.html"><p>Experiment4</p></a>
-        
-    </div>
+        <div class="card">
+            <a href="Experiment1/index.html">Experiment 1</a>
+        </div>
 
+        <div class="card">
+            <a href="Experiment2/index.html">Experiment 2</a>
+        </div>
+
+        <div class="card">
+            <a href="Experiment3/index.html">Experiment 3</a>
+        </div>
+
+        <div class="card">
+            <a href="Experiment4/index.html">Experiment 4</a>
+        </div>
     </div>
 
     <div class="another">
         <div class="sub-by">
-            <b>Name</b><p>Sree Tirtha</p>
-            <b>USN</b><p>24BTRCN072</p>
-            <b>Course</b><p>Web Technology</p>
+            <b>Name</b>
+            <p>Sree Tirtha</p>
 
+            <b>USN</b>
+            <p>24BTRCN072</p>
+
+            <b>Course</b>
+            <p>Web Technology</p>
         </div>
-        <div class="sub-to">
-            <b>Faculty</b><p>Junaid Rsool Sir</p>
-            <b>Department</b><p>Computer Science and Engineering</p>
 
+        <div class="sub-to">
+            <b>Faculty</b>
+            <p>Mir Junaid Rasool</p>
+
+            <b>Department</b>
+            <p>Computer Science and Engineering</p>
         </div>
     </div>
-    
+
+    <footer>
+        © 2026 Web Technology Workshop
+    </footer>
+
 </body>
 </html>
