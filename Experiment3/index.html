@@ -1,84 +1,241 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio website</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <body>
-
-    <!-- NAVBAR -->
-    <nav class="navbar">
-        <h1>MyPortfolio</h1>
-        <ul class="nav-links">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="#works">My Works</a></li>
-            <li><a href="#footer">Contact</a></li>
-        </ul>
-    </nav>
-
-    <!-- MY WORKS SECTION -->
-    <section class="works" id="works">
-        <h2>My Works</h2>
-
-        <div class="work-container">
-            <div class="work-card"><a href="project1.html">
-                <h3>Project One</h3>
-                <p>A short description of your project goes here.</p></a>
-            </div>
-
-            <div class="work-card"><a href="colors.html">
-                <h3>Project Two</h3>
-                <p>A short description of your project goes here.</p></a>
-            </div>
-
-            <div class="work-card"> <a href="form.html">
-                <h3>Project Three</h3>
-                <p>A short description of your project goes here.</p></a>
-            </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My portfolio website</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400..800&family=Luckiest+Guy&family=Momo+Trust+Display&family=Oswald:wght@200..700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="head">
+      <nav class="navigation">
+        <div class="logo">
+          <h2>Ti<span class="orange">rth</span>a</h2>
         </div>
+        <ul class="menu">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><button class="btn">Hire me</button></li>
+        </ul>
+      </nav>
+
+      <section id="banner">
+        <div class="content">
+          <h3>Hi I am</h3>
+          <h2>Sree Tirtha</h2>
+          <p>
+            I am a passionate computer science undergraduate, focused on building real-world tech solutionss. With strong passion in web development.  
+          </p>
+          <button class="btn">⬇️Download CV</button>
+          <button class="btn">📞Contact</button>
+        </div>
+        <div class="photo">
+          <img src="images/MyPhoto.png" alt="" />
+        </div>
+      </section>
+    </header>
+
+    <section id="about">
+      <div class="about-container">
+        <div class="section-heading">
+          <h2>About ME</h2>
+          <p>
+             A highly motivated Computer Science professional with strong
+            interests in web development, cybersecurity, and AI-driven systems.
+            Experienced in building practical, real-world projects including
+            automation solutions and intelligent applications. Demonstrates
+            strong problem-solving skills, logical thinking, and a continuous
+            learning mindset. Committed to innovation, efficiency, and achieving
+            long-term financial and professional growth through technology.
+          </p>
+        </div>
+        <div class="about-info">
+          <div class="info-card">
+            <p>Name:</p>
+            <h4>Tirtha</h4>
+          </div>
+          <div class="info-card">
+            <p>Email:</p>
+            <h4>tsd2580@gmail.com</h4>
+          </div>
+          <div class="info-card">
+            <p>Date of birth:</p>
+            <h4>20 November 2004</h4>
+          </div>
+          <div class="info-card">
+            <p>From:</p>
+            <h4>Habiganj, Bangladesh</h4>
+          </div>
+        </div>
+      </div>
     </section>
 
-    <section class="about-me" id="about">
-    <div class="about-container">
+    <section id="does">
+      <div class="work">
+        <h2>What I Do</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
+          possimus ea facere debitis accusamus porro cupiditate eligendi nam
+          harum modi?
+        </p>
+      </div>
+    </section>
 
-        <div class="about-image">
-            <img src="icon.png.jpg" alt="My Photo">
+    <section id="skills">
+      <div class="skill-container">
+        <div class="skill-card">
+          <img src="images/icons/js.png" alt="" />
+          <h4>JavaScript</h4>
+          <p>
+            List skill/technologies here. You can change the icon above to any
+            of the 1500+ FontAwesome 5 free icons available. Aenean commodo
+            ligula eget dolor.
+          </p>
+        </div>
+        <div class="skill-card">
+          <img src="images/icons/react.png" alt="" />
+          <h4>React</h4>
+          <p>
+            List skill/technologies here. You can change the icon above to any
+            of the 1500+ FontAwesome 5 free icons available. Aenean commodo
+            ligula eget dolor.
+          </p>
+        </div>
+        <div class="skill-card">
+          <img src="images/icons/nodejs.png" alt="" />
+          <h4>Node.js</h4>
+          <p>
+            List skill/technologies here. You can change the icon above to any
+            of the 1500+ FontAwesome 5 free icons available. Aenean commodo
+            ligula eget dolor.
+          </p>
+        </div>
+        <div class="skill-card">
+          <img src="images/icons/mongo.png" alt="" />
+          <h4>MongoDB</h4>
+          <p>
+            List skill/technologies here. You can change the icon above to any
+            of the 1500+ FontAwesome 5 free icons available. Aenean commodo
+            ligula eget dolor.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="summary">
+      <div class="summary-head">
+        <h2>A summary of my resume</h2>
+      </div>
+
+      <div class="summary-container">
+        <div class="education">
+          <h3>My education</h3>
+          <div class="summary-card">
+            <h4 class="degree">Masters in Computer Engineering</h4>
+            <p class="varsity">BUET / 2032 - 2034</p>
+            <p class="description">
+              List skill/technologies here. You can change the icon above to any
+              of the 1500+ FontAwesome 5 free icons available. Aenean commodo
+              ligula eget dolor.
+            </p>
+            <hr />
+          </div>
+
+          <div class="summary-card">
+            <h4 class="degree">B-Tech in Computer Engineering</h4>
+            <p class="varsity">Jain University / 2024 - 2028</p>
+            <p class="description">
+              List skill/technologies here. You can change the icon above to any
+              of the 1500+ FontAwesome 5 free icons available. Aenean commodo
+              ligula eget dolor.
+            </p>
+            <hr />
+          </div>
+
+          <div class="summary-card">
+            <h4 class="degree"> HSC/SSC</h4>
+            <p class="varsity">HGHS / 2021 / 2023</p>
+            <p class="description">
+              List skill/technologies here. You can change the icon above to any
+              of the 1500+ FontAwesome 5 free icons available. Aenean commodo
+              ligula eget dolor.
+            </p>
+            <hr />
+          </div>
         </div>
 
-        <div class="about-content">
-            <h2>About Me</h2>
-            <p>
-                Hi, I'm <strong>Sree Tirtha</strong>, a passionate web developer who loves building
-                clean, responsive, and user-friendly websites.
+        <div class="experience">
+          <h3>My experience</h3>
+          <div class="summary-card">
+            <h4 class="role">Sr. Font End Developer</h4>
+            <p class="company">Apple Inc / 2020 - Current</p>
+            <p class="description">
+              List skill/technologies here. You can change the icon above to any
+              of the 1500+ FontAwesome 5 free icons available. Aenean commodo
+              ligula eget dolor.
             </p>
-
-            <p>
-                I specialize in HTML, CSS, and JavaScript, creating modern digital
-                experiences that help businesses grow and stand out online.
+            <hr />
+          </div>
+          <div class="summary-card">
+            <h4 class="role">Sr. Font End Developer</h4>
+            <p class="company">Apple Inc / 2020 - Current</p>
+            <p class="description">
+              List skill/technologies here. You can change the icon above to any
+              of the 1500+ FontAwesome 5 free icons available. Aenean commodo
+              ligula eget dolor.
             </p>
-
-            <p>
-                When I'm not coding, I enjoy learning new technologies and improving
-                my skills every day.
+            <hr />
+          </div>
+          <div class="summary-card">
+            <h4 class="role">Sr. Font End Developer</h4>
+            <p class="company">Apple Inc / 2020 - Current</p>
+            <p class="description">
+              List skill/technologies here. You can change the icon above to any
+              of the 1500+ FontAwesome 5 free icons available. Aenean commodo
+              ligula eget dolor.
             </p>
-
-            <a href="#" class="about-btn">Download CV</a>
+            <hr />
+          </div>
         </div>
+      </div>
+      <button class="btn">⬇️Download CV</button>
+    </section>
 
-    </div>
-</section>
-
-
-    <!-- FOOTER -->
     <footer id="footer">
-        <p>© 2026 MyPortfolio | All Rights Reserved </p>
+      <div class="footer-content">
+        <div class="footer-connect">
+          <h5>Connect with me</h5>
+          <p>
+            Please fill out the form on this section to contact with me or call
+            between 9:00 A.M and 8.00 P.M ET, Monday through Friday.
+          </p>
+          <div class="social-link">
+            <ul>
+              <li><img src="images/icons/facebook.png" alt="" /></li>
+              <li><img src="images/icons/twitter.png" alt="" /></li>
+              <li><img src="images/icons/insta.png" alt="" /></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-form">
+          <h3 class="msg">Message Me</h3>
+          <form action="#" class="form">
+            <label for="name"></label>
+            <input type="text" id="name" placeholder="Your name" />
+            <label for="email"></label>
+            <input type="email" id="email" placeholder="Your email" />
+            <label for="message"></label>
+            <input type="text" id="message" placeholder="Write your message" class="Write" />
+          </form>
+          <button class="btn" type="submit">Submit</button>
+        </div>
+      </div>
     </footer>
-
-</body>
-</html>
-    
-</body>
+  </body>
 </html>
