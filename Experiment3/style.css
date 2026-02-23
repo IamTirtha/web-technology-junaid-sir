@@ -341,3 +341,153 @@ nav ul li a {
 
 }
 
+@media (max-width: 768px) {
+  /* Navigation */
+  .navigation {
+    width: 90%;
+    padding: 20px;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .navigation h2 {
+    font-size: 32px;
+  }
+  
+  nav .menu {
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  nav ul li a {
+    font-size: 16px;
+  }
+  
+  .btn {
+    font-size: 16px;
+    padding: 8px 16px;
+  }
+
+  /* Banner Section */
+  #banner {
+    flex-direction: column;
+    margin: 20px !important;
+    gap: 30px;
+    text-align: center;
+  }
+  
+  #banner .content {
+    width: 100%;
+    height: auto;
+    order: 2;
+  }
+  
+  #banner .content h3 {
+    font-size: 28px;
+  }
+  
+  #banner .content h2 {
+    font-size: 48px;
+  }
+  
+  #banner .photo img {
+    max-width: 280px;
+    width: 80%;
+    order: 1;
+  }
+
+  /* About Section */
+  #about {
+    padding-top: 60px;
+  }
+  
+  #about .about-container {
+    width: 90%;
+    padding: 60px 20px;
+  }
+  
+  #about .about-info {
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .info-card {
+    text-align: left;
+  }
+
+  /* What I Do */
+  #does .work {
+    width: 90%;
+    padding: 60px 20px;
+  }
+  
+  #does .work h2 {
+    font-size: 32px;
+  }
+
+  /* Skills Section */
+  #skills .skill-container {
+    width: 90%;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #skills .skill-card {
+    width: 100%;
+    max-width: 350px;
+    text-align: center;
+  }
+  
+  #skills .skill-card img {
+    padding: 20px 0 0 0 !important;
+    width: 80px;
+    height: 80px;
+  }
+  
+  #skills .skill-card h4 {
+    padding: 10px 20px 0 !important;
+  }
+
+  /* Summary Section */
+  #summary .summary-container {
+    width: 90%;
+    flex-direction: column;
+    gap: 40px;
+  }
+  
+  #summary .summary-head h2 {
+    font-size: 28px;
+  }
+  
+  #summary .btn {
+    margin: 30px auto !important;
+    display: block;
+  }
+
+  /* Footer */
+  #footer .footer-content {
+    width: 90%;
+    flex-direction: column;
+    gap: 40px;
+    padding: 60px 20px;
+  }
+  
+  #footer .footer-form input,
+  #footer .footer-form .Write {
+    width: 100%;
+    max-width: 100%;
+  }
+  
+  #footer .footer-form .Write {
+    height: 120px;
+  }
+  
+  #footer .footer-form .btn {
+    width: 100%;
+    max-width: 200px;
+    margin: 0 auto;
+  }
+}
+
+
