@@ -11,13 +11,15 @@
   justify-content: space-between;
   margin: 87px 120px;
 }
+
+
 .logo {
   font-size: 24px;
   font-weight: bold;
   color: #3a3a3a;
 }
 
-.nav-menu , .nav-menu a{
+.nav-menu {
   display: flex;
   list-style: none;
   text-decoration: none;
@@ -72,23 +74,36 @@
   cursor: pointer;
 }
 
-.market-container .markets img{
-  margin: 25px 25px 25px 25px;
-  justify-content: space-around;
+
+.market-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0 20px;
+  margin: 0;
 }
 
-.market-container{
-  margin-left: 163px;
-  margin-right: 167px;
+.market-container .markets {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+
+.market-container .markets img {
+  width: 80px;
+  height: auto;
+  margin: 0;
 }
 
 
-#section-2 h2{
+#section-2 h2 {
   font-size: 28px;
   font-weight: 600;
   color: #3A3A3A;
-  align-items: center;
-  padding: 98px 590px 20px 630px;
+  text-align: center;
+  padding: 98px 20px 20px;
+  margin: 0;
 }
 
 #section-2 .popular-collection{
@@ -191,6 +206,98 @@
   margin-right: 16px;
 
 }
+
+@media (max-width: 768px) {
+  /* Navbar */
+  #navbar {
+    margin: 24px 20px;
+    flex-direction: column;
+    gap: 16px;
+    text-align: center;
+  }
+  
+  .logo {
+    font-size: 20px;
+  }
+  
+  .nav-menu {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 14px;
+    font-size: 14px;
+  }
+  
+  /* Section 1 */
+  #section-1 {
+    margin: 20px;
+    flex-direction: column-reverse;
+    text-align: center;
+    background-position: top center;
+    background-size: contain;
+    gap: 24px;
+    padding: 40px 0;
+  }
+  
+  #section-1 .sec-1-text {
+    width: 100%;
+  }
+  
+  #section-1 .sec-1-text h2 {
+    font-size: 32px;
+    line-height: 42px;
+  }
+  
+  #section-1 .sec-1-text p {
+    font-size: 14px;
+  }
+  
+  /* Section 2 - Cards Grid */
+  #section-2 .popular-collection {
+    grid-template-columns: 1fr;
+    margin: 0 20px 50px;
+    gap: 20px;
+  }
+  
+  .card {
+    width: 100%;
+    max-width: 350px;
+    margin: 0 auto;
+  }
+  
+  .card h3 {
+    font-size: 24px;
+  }
+  
+  /* Section 3 */
+  #section-3 .sec-3-container {
+    flex-direction: column;
+    text-align: center;
+    padding: 40px 20px;
+    gap: 30px;
+  }
+  
+  .sec-3-text {
+    margin-top: 0;
+    order: -1;
+  }
+  
+  #section-3 .image img {
+    max-width: 300px;
+    width: 100%;
+  }
+  
+  /* Footer */
+  #footer .inner {
+    padding: 30px 20px;
+    gap: 15px;
+  }
+  
+  #footer .inner .social img {
+    width: 30px;
+    margin-right: 12px;
+  }
+}
+
 
 
 
