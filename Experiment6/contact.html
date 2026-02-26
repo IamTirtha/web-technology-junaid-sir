@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Beautiful Contact Form</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+}
+
+.container{
+    width:100%;
+    max-width:400px;
+    padding:30px;
+    background: rgba(255,255,255,0.15);
+    backdrop-filter: blur(15px);
+    border-radius:20px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.2);
+    color:white;
+}
+
+.container h2{
+    text-align:center;
+    margin-bottom:20px;
+    font-weight:600;
+}
+
+.input-group{
+    margin-bottom:15px;
+}
+
+.input-group label{
+    font-size:14px;
+    display:block;
+    margin-bottom:5px;
+}
+
+.input-group input,
+.input-group textarea{
+    width:100%;
+    padding:10px;
+    border:none;
+    border-radius:8px;
+    outline:none;
+    font-size:14px;
+}
+
+.input-group input:focus,
+.input-group textarea:focus{
+    box-shadow:0 0 5px #fff;
+}
+
+textarea{
+    resize:none;
+    height:100px;
+}
+
+button{
+    width:100%;
+    padding:12px;
+    border:none;
+    border-radius:8px;
+    background:white;
+    color:#764ba2;
+    font-weight:600;
+    cursor:pointer;
+    transition:0.3s ease;
+}
+
+button:hover{
+    background:#f1f1f1;
+    transform:scale(1.03);
+}
+
+@media(max-width:500px){
+    .container{
+        margin:20px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+    <h2>Proceed to Registration Form</h2>
+    <form>
+        <div class="input-group">
+            <label>Full Name</label>
+            <input type="text" placeholder="Enter your name" required>
+        </div>
+
+        <div class="input-group">
+            <label>Email</label>
+            <input type="email" placeholder="Enter your email" required>
+        </div>
+
+        <div class="input-group">
+            <label>Phone</label>
+            <input type="tel" placeholder="Enter your phone number">
+        </div>
+
+        
+
+        <button type="submit"><a href="index.html">Register</a></button>
+    </form>
+</div>
+
+</body>
+</html>
