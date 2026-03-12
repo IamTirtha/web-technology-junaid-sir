@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -26,15 +26,15 @@
         <img src="assets/logo.png" alt="logo" class="h-16 mt-2 ml-3">
         <div>
             <ul class="hidden md:flex gap-8 font-medium">
-                <li class="cursor-pointer px-4 py-2 border-[#4FC3F7] rounded-xl hover:bg-[#4FC3F7]  hover:text-black transition">Home</li>
-                <li class="cursor-pointer px-4 py-2 border-[#4FC3F7] rounded-xl hover:bg-[#4FC3F7]  hover:text-black transition">About</li>
-                <li class="cursor-pointer px-4 py-2 border-[#4FC3F7] rounded-xl hover:bg-[#4FC3F7]  hover:text-black transition">Project</li>
-                <li class="cursor-pointer px-4 py-2 border-[#4FC3F7] rounded-xl hover:bg-[#4FC3F7]  hover:text-black transition">Services</li>
-                <li class="cursor-pointer px-4 py-2 border-[#4FC3F7] rounded-xl hover:bg-[#4FC3F7]  hover:text-black transition">Resume</li>
+                <li class="cursor-pointer px-4 py-2 border-[#4FC3F7] rounded-xl hover:bg-[#4FC3F7]  hover:text-black transition"><a href="#sec-1">Home</a></li>
+                <li class="cursor-pointer px-4 py-2 border-[#4FC3F7] rounded-xl hover:bg-[#4FC3F7]  hover:text-black transition"><a href="#sec-3">About</a></li>
+                <li class="cursor-pointer px-4 py-2 border-[#4FC3F7] rounded-xl hover:bg-[#4FC3F7]  hover:text-black transition"><a href="#">Project</a></li>
+                <li class="cursor-pointer px-4 py-2 border-[#4FC3F7] rounded-xl hover:bg-[#4FC3F7]  hover:text-black transition"><a href="#sec-5">Services</a></li>
+                <li class="cursor-pointer px-4 py-2 border-[#4FC3F7] rounded-xl hover:bg-[#4FC3F7]  hover:text-black transition"><a href="#sec-3">Resume</a></li>
             </ul>
         </div>
         <div class="hidden md:flex justify-around items-center gap-10">
-            <button class="px-4 py-2 border border-[#4FC3F7] rounded-3xl hover:bg-[#4FC3F7] hover:text-black transition">Contact Me</button>
+            <button class="px-4 py-2 border border-[#4FC3F7] rounded-3xl hover:bg-[#4FC3F7] hover:text-black transition"><a href="#sec-5">Contact Me</a></button>
             <img src="assets/dark-mode.png" alt="" class="h-8 cursor-pointer mr-3">
         </div>
 
@@ -59,7 +59,7 @@
         <div class="container mx-auto bg-[url('assets/rectangle3.png')] bg-cover bg-center h-[500px] w-[90%] md:w-[60%] flex flex-col justify-center items-center">
             <img src="assets/photo.jpeg" alt="" class=" h-56 w-56 border-4 border-white rounded-full object-cover shadow-lg">
             <h1 class="text-4xl font-bold mt-6">Shree Tirtha</h1>
-            <p class="text-2xl font-semibold bg-[linear-gradient(to_right,#4FC3F7,#FFFFFF)] bg-clip-text text-transparent mt-2 w-[90%] md:w-[60%]">Aspiring Web Developer</p>
+            <p class="text-2xl font-semibold text-center bg-[linear-gradient(to_right,#4FC3F7,#FFFFFF)] bg-clip-text text-transparent mt-2 w-[90%] md:w-[60%]">Aspiring Web Developer</p>
             <p class="text-lg text-gray-200 mt-2 w-[90%] md:w-[60%]">As a passionate Full-Stack Developer, with expertise in Front-end Web tech, AI, and ML, I thrive on the challenges of exploring new technology and uncovering meaningful patterns that drive innovation.</p>
             <button class="px-4 py-2 border border-[#4FC3F7] rounded-3xl hover:bg-[#4FC3F7] hover:text-black transition mt-8">Contact Me</button>
         </div>
@@ -76,7 +76,7 @@
             <p class="text-lg text-gray-200 mt-2 w-[90%] md:w-[60%]">I spend several hours daily improving my coding skills by building projects and strengthening my understanding of DOM manipulation, event handling, and modern web design.
                 I am currently looking for remote opportunities or full time as a Web Developer where I can contribute to real-world projects, collaborate with talented teams, and continue growing as a developer.
             </p>
-            <button class="px-4 py-2 border border-[#4FC3F7] rounded-3xl hover:bg-[#4FC3F7] hover:text-black transition">Download Resume</button>
+            <button  id="downloadBtn" class="px-4 py-2 border border-[#4FC3F7] rounded-3xl hover:bg-[#4FC3F7] hover:text-black transition">Download Resume</button>
 
         </div>
     </section>
