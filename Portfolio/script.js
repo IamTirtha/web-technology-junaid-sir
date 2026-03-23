@@ -12,7 +12,7 @@ document.getElementById("downloadBtn").addEventListener("click", function () {
   link.click();
 });
 
-const words = ["Aspiring Web Developer", "AI Enthusiast", "Tech Explorer","Tutor","UG Student"];
+const words = ["Frontend Developer", "AI Enthusiast", "Tech Explorer","Tutor","UG Student"];
 const typingText = document.getElementById("typing-text");
 let wordIndex = 0;
 let charIndex = 0; 
